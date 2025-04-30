@@ -1,8 +1,8 @@
 export default async function handler(req, res) {
   const { method, body, query } = req;
 
-  // GANTI dengan URL Web App kamu dari Google Apps Script
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxCowgpoqTcqxaQv5-sLccBzULuc2lflTVF5p0P0xAv4WtTTMi7_17Hy-sv0jUVeMi4/exec";
+  // URL Web App kamu dari Google Apps Script
+  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwpGQ9ij8Ft00p47a-CT2IyIhICC2tUVW_y71B1MnroyffZSHQvlKHciLdaSSMnzrzm/exec";
 
   try {
     if (method === "POST") {
